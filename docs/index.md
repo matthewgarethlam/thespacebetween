@@ -1,6 +1,6 @@
 # The Space Between 
 
-<img src="matthew.jpg" alt="drawing" width="300"/>
+<img src="images/matthew.jpg" alt="drawing" width="300"/>
 
 
 Welcome to my personal website for sharing notes, learnings, and tips I've picked up along the way.
