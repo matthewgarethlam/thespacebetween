@@ -64,32 +64,15 @@ Git solves the classic problem of multiple people editing the same files. Git he
 ???+ question 
     "What's the difference between Git and GitHub?"
 
-### Git
+**Git** is the actual version control software installed on your machine.
 
-Git is the actual version control software installed on your machine.
-
-It manages:
-
-- Version history
-- Branches
-- Commits
-- Merges
+It manages version history, branches, commits and merges. 
 
 Git works perfectly well without an internet connection.
 
-### GitHub
+**GitHub** is a cloud platform built around Git.
 
-GitHub is a cloud platform built around Git.
-
-It provides:
-
-- Remote repository hosting
-- Collaboration tools
-- Pull Requests
-- Code reviews
-- Issue tracking
-- Project planning
-- Continuous Integration (CI/CD)
+It is a platform where repositories can be hosted, developers can collaborate, Pull Requests (PRs) and Issues can be rasied and tracked and other Continuous Integration /Continuous Development (CI/CD) apabilities. 
 
 An analogy:
 
@@ -160,13 +143,6 @@ feature/add-tracking-module
 feature/add-health-classification
 ```
 
-Workflow:
-
-```text
-develop
-   └── feature/new-feature
-```
-
 #### Release Branches
 
 Created when preparing a release.
@@ -229,7 +205,7 @@ Git Flow works well when:
 - Formal releases are required
 - Production stability is important
 
-For smaller projects or continuous deployment environments, simpler workflows such as **GitHub Flow** are often preferred.
+For smaller projects or on projects where you are the sole developer, simpler workflows such as are often faster and easier to manage. 
 
 ---
 
