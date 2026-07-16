@@ -19,11 +19,5 @@ In the presentation, we hope to show how a cross-disciplinary way of working del
 
 
 ## Slides
-
-<iframe
-  src="https://github.com/matthewgarethlam/thespacebetween/blob/main/docs/Talks/Slides/GeoBusiness_2026_Presentation_rev01b.pdf"
-  type="application/pdf"
-  width="100%"
-  height="500"
-/></iframe>
+[Download slides](https://github.com/matthewgarethlam/thespacebetween/blob/main/docs/Talks/Slides/GeoBusiness_2026_Presentation_rev01b.pdf)
 
