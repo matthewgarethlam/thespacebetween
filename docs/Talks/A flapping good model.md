@@ -20,11 +20,10 @@ In the presentation, we hope to show how a cross-disciplinary way of working del
 
 ## Slides
 
-<!-- <object data = "/Slides/GeoBusiness_2026_Presentation_rev01b.pdf" type = "application/pdf" width ="100%">
-</object> -->
-<embed
-  src="docs\Talks\Slides\GeoBusiness_2026_Presentation_rev01b.pdf"
+<iframe
+  src="https://github.com/matthewgarethlam/thespacebetween/blob/main/docs/Talks/Slides/GeoBusiness_2026_Presentation_rev01b.pdf"
   type="application/pdf"
   width="100%"
-  height="800"
-/>
+  height="500"
+/></iframe>
+
