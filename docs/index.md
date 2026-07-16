@@ -1,6 +1,6 @@
 # The Space Between 
 
-![Matthew](matthew.jpg)
+<img src="matthew.jpg" alt="drawing" width="300"/>
 
 
 Welcome to my personal website for keeping and sharing notes, learnings and tips I've picked up along the way. 
