@@ -11,7 +11,7 @@ Git is a piece of software on your machine used to track changes in files. Git l
 - Revert mistakes
 
 
-### Key Concepts
+### Key Terms
 
 | Term | Definition |
 |--------|------------|
@@ -27,7 +27,7 @@ Git is a piece of software on your machine used to track changes in files. Git l
 
 ## Why Should I Use Git?
 
-Git can provide significant benefits when working with:
+Git is good for tracking changes with:
 
 - Scripts (Python,R,SQL)
 - Notebooks (Rmd, Jupyter Notebooks)
@@ -114,7 +114,7 @@ Merge into Main
 
 ## Git Flow
 
-**Git Flow** is a branching strategy that defines how code moves from development into production.
+A branching strategy that defines how code moves from development into production.
 
 ### Core Branches
 
@@ -197,7 +197,8 @@ develop
       main
 ```
 
-### When Should You Use Git Flow?
+???+ question 
+    When Should You Use Git Flow?
 
 Git Flow works well when:
 
@@ -205,183 +206,4 @@ Git Flow works well when:
 - Formal releases are required
 - Production stability is important
 
-For smaller projects or on projects where you are the sole developer, simpler workflows such as are often faster and easier to manage. 
-
----
-
-## Useful Git Commands (To Memorise)
-
-### Repository Setup
-
-Initialise a new repository:
-
-```bash
-git init
-```
-
-Clone an existing repository:
-
-```bash
-git clone <repository-url>
-```
-
-Check your Git version:
-
-```bash
-git --version
-```
-
----
-
-### Daily Workflow
-
-Check repository status:
-
-```bash
-git status
-```
-
-See recent commits:
-
-```bash
-git log
-```
-
-Add all changed files:
-
-```bash
-git add .
-```
-
-Add a specific file:
-
-```bash
-git add myfile.py
-```
-
-Create a commit:
-
-```bash
-git commit -m "Add feature X"
-```
-
----
-
-### Branching
-
-View branches:
-
-```bash
-git branch
-```
-
-Create a new branch:
-
-```bash
-git checkout -b feature/new-feature
-```
-
-Switch branches:
-
-```bash
-git checkout develop
-```
-
-Merge a branch:
-
-```bash
-git merge feature/new-feature
-```
-
-Delete a branch:
-
-```bash
-git branch -d feature/new-feature
-```
-
----
-
-### Working with Remote Repositories
-
-Download latest changes:
-
-```bash
-git pull
-```
-
-Upload commits:
-
-```bash
-git push
-```
-
-Push a new branch:
-
-```bash
-git push -u origin feature/new-feature
-```
-
----
-
-### Comparing Changes
-
-Compare branches:
-
-```bash
-git diff main develop
-```
-
----
-
-### Undoing Mistakes
-
-Undo changes to a file:
-
-```bash
-git checkout -- myfile.py
-```
-
-Unstage a file:
-
-```bash
-git reset myfile.py
-```
-
-Revert a commit safely:
-
-```bash
-git revert <commit-id>
-```
-
----
-
-### The "Save My Work Quickly" Commands
-
-These are surprisingly useful:
-
-Temporarily save changes:
-
-```bash
-git stash
-```
-
-Restore stashed changes:
-
-```bash
-git stash pop
-```
-
----
-
-## "Do the dance"
-
-This is my favourite. Used when I need to update branch without losing local changes: 
-
-```bash
-git stash #this stashes the changes in my current branch
-git checkout main #checks out the main branch
-git pull 
-git checkout myoriginalbranch
-git stash pop 
-git merge main #brings in all the changes from main into current branch
-```
+For smaller projects or on projects where you are the sole developer, simpler workflows such as are often faster and easier to manage.
