@@ -1,4 +1,4 @@
-name: Documentation
+name: Rebuild github pages
 on:
   push:
     branches:
