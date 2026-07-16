@@ -1,4 +1,4 @@
-# A Crash Course in Git
+# A Crash Course on Git
 
 ## What is Git?
 

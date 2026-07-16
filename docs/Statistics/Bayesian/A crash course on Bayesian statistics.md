@@ -1,4 +1,4 @@
-# A Crash Course in Bayesian Statistics
+# A Crash Course on Bayesian Statistics
 
 Recently, I worked on several projects where we used bayesian models for prediction. I've had to explain bayesian statistics to many stakeholders (with varying degrees of compleixty) so I thought it would be helpful to formalise this into a little crash course. 
 
