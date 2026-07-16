@@ -9,5 +9,5 @@ The name *The Space Between* comes from the space between not knowing and unders
 
 You'll find explainers, tutorials, quick notes (mostly for my future self), and code snippets on concepts I've found useful to formalise. I hope you might find something of use to you here 😉. 
 
-All the best, 
-Matthew
+All the best,
+> Matthew
