@@ -1641,24 +1641,6 @@
 <li>Repeat.</li>
 </ol>
 <h3 id="sequential-updating-process">Sequential Updating Process</h3>
-<<<<<<< HEAD
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>flowchart LR
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    A[Prior]
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    B[New Data]
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    C[Posterior]
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    C --&gt; D[New Prior]
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    E[More Data]
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    F[Updated Posterior]
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>    A --&gt; C
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>    B --&gt; C
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>    D --&gt; F
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>    E --&gt; F
-</span></code></pre></div>
-=======
 <pre class="mermaid"><code>flowchart LR
 
     A[Prior]
@@ -1674,7 +1656,6 @@
 
     D --&gt; F
     E --&gt; F</code></pre>
->>>>>>> main
 <hr />
 <h2 id="example-smoking-and-lung-cancer">Example: Smoking and Lung Cancer</h2>
 <p>I am diagnosing an individual for lung cancer. </p>
@@ -1685,34 +1666,15 @@
 <p>This patient has a higher risk of lung cancer than the average person.</p>
 </blockquote>
 <p>This forms the <strong>prior probability</strong>.</p>
-<<<<<<< HEAD
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>flowchart LR
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>    A[Smoking History]
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>    B[Prior Probability of Lung Cancer]
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>    A --&gt; B
-</span></code></pre></div>
-=======
 <pre class="mermaid"><code>flowchart LR
     A[Smoking History]
     B[Prior Probability of Lung Cancer]
 
     A --&gt; B</code></pre>
->>>>>>> main
 <hr />
 <h3 id="step-2-new-evidence-arrives">Step 2: New Evidence Arrives</h3>
 <p>A chest X-ray reveals a suspicious shadow.</p>
 <p>We can update our belief. </p>
-<<<<<<< HEAD
-<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>flowchart LR
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>    A[Prior Risk]
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>    B[Chest X-ray Result]
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>    C[Updated Probability]
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>
-</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>    A --&gt; C
-</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>    B --&gt; C
-</span></code></pre></div>
-=======
 <pre class="mermaid"><code>flowchart LR
     A[Prior Risk]
     B[Chest X-ray Result]
@@ -1720,22 +1682,11 @@
 
     A --&gt; C
     B --&gt; C</code></pre>
->>>>>>> main
 <p>The resulting probability is called the <strong>posterior probability</strong>.</p>
 <hr />
 <h3 id="step-3-more-evidence-arrives">Step 3: More Evidence Arrives</h3>
 <p>A CT scan is performed.</p>
 <p>Instead of returning to the beginning and ignoring what has already been learned, we can use the previous posterior as the new prior.</p>
-<<<<<<< HEAD
-<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>flowchart LR
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>    A[Posterior After X-ray]
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>    B[CT Scan]
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>    C[New Posterior]
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>    A --&gt; C
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>    B --&gt; C
-</span></code></pre></div>
-=======
 <pre class="mermaid"><code>flowchart LR
     A[Posterior After X-ray]
     B[CT Scan]
@@ -1743,22 +1694,11 @@
 
     A --&gt; C
     B --&gt; C</code></pre>
->>>>>>> main
 <p>Risk estimates are refined further.</p>
 <hr />
 <h3 id="step-4-a-biopsy-result-arrives">Step 4: A Biopsy Result Arrives</h3>
 <p>Finally, a biopsy is performed.</p>
 <p>Again, the previous posterior becomes the new prior.</p>
-<<<<<<< HEAD
-<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>flowchart LR
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>    A[Posterior After CT]
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>    B[Biopsy Results]
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>    C[Final Posterior Probability]
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>    A --&gt; C
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>    B --&gt; C
-</span></code></pre></div>
-=======
 <pre class="mermaid"><code>flowchart LR
     A[Posterior After CT]
     B[Biopsy Results]
@@ -1766,25 +1706,10 @@
 
     A --&gt; C
     B --&gt; C</code></pre>
->>>>>>> main
 <p>At each stage, the estimate becomes more informed because it incorporates all previous evidence.</p>
 <hr />
 <h2 id="why-sequential-updating-is-useful">Why Sequential Updating Is Useful</h2>
 <p>Traditional statistical analysis often works like this:</p>
-<<<<<<< HEAD
-<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>Collect all data
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>↓
-</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>Run analysis
-</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>↓
-</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>Generate result
-</span></code></pre></div>
-<p>Bayesian Sequential Updating works differently:</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>Observation 1 → Update
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>Observation 2 → Update
-</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>Observation 3 → Update
-</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a>Observation 4 → Update
-</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a>...
-=======
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Collect all data
 </span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>↓
 </span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>Run analysis
@@ -1797,7 +1722,6 @@
 </span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>Observation 3 → Update
 </span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>Observation 4 → Update
 </span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>...
->>>>>>> main
 </span></code></pre></div>
 <p>This is good for when information arrives gradually over time, or we have varying degrees of confidence on our observations.</p>
 <hr />
@@ -1828,21 +1752,6 @@
 <hr />
 <h2 id="visualising-belief-updating">Visualising Belief Updating</h2>
 <p>A useful way to think about Bayesian updating is as a process of reducing uncertainty.</p>
-<<<<<<< HEAD
-<div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>flowchart LR
-</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>
-</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a>    A[Very Uncertain Prior]
-</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a>    B[Observation 1]
-</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a>    C[Observation 2]
-</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a>    D[Observation 3]
-</span><span id="__span-7-7"><a id="__codelineno-7-7" name="__codelineno-7-7" href="#__codelineno-7-7"></a>    E[High Confidence Posterior]
-</span><span id="__span-7-8"><a id="__codelineno-7-8" name="__codelineno-7-8" href="#__codelineno-7-8"></a>
-</span><span id="__span-7-9"><a id="__codelineno-7-9" name="__codelineno-7-9" href="#__codelineno-7-9"></a>    A --&gt; B
-</span><span id="__span-7-10"><a id="__codelineno-7-10" name="__codelineno-7-10" href="#__codelineno-7-10"></a>    B --&gt; C
-</span><span id="__span-7-11"><a id="__codelineno-7-11" name="__codelineno-7-11" href="#__codelineno-7-11"></a>    C --&gt; D
-</span><span id="__span-7-12"><a id="__codelineno-7-12" name="__codelineno-7-12" href="#__codelineno-7-12"></a>    D --&gt; E
-</span></code></pre></div>
-=======
 <pre class="mermaid"><code>flowchart LR
 
     A[Very Uncertain Prior]
@@ -1855,7 +1764,6 @@
     B --&gt; C
     C --&gt; D
     D --&gt; E</code></pre>
->>>>>>> main
 <p>As more evidence accumulates:</p>
 <ul>
 <li>Uncertainty decreases.</li>

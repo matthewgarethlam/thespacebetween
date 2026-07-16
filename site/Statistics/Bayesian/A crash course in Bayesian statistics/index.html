@@ -1085,20 +1085,6 @@
   
 </li>
       
-<<<<<<< HEAD
-        <li class="md-nav__item">
-  <a href="#key-takeaway" class="md-nav__link">
-    <span class="md-ellipsis">
-      <span class="md-typeset">
-        Key Takeaway
-      </span>
-    </span>
-  </a>
-  
-</li>
-      
-=======
->>>>>>> main
     </ul>
   
 </nav>
@@ -1828,20 +1814,6 @@
   
 </li>
       
-<<<<<<< HEAD
-        <li class="md-nav__item">
-  <a href="#key-takeaway" class="md-nav__link">
-    <span class="md-ellipsis">
-      <span class="md-typeset">
-        Key Takeaway
-      </span>
-    </span>
-  </a>
-  
-</li>
-      
-=======
->>>>>>> main
     </ul>
   
 </nav>
@@ -2066,18 +2038,6 @@ P(A \mid B)=\frac{P(B \mid A)P(A)}{P(B)}
 \text{Posterior} \propto \text{Likelihood} \times \text{Prior}
 \]</div>
 <h3 id="bayesian-updating">Bayesian Updating</h3>
-<<<<<<< HEAD
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>flowchart LR
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>    A[Prior Belief]
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    B[New Evidence]
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    C[Bayes&#39; Theorem]
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>    D[Posterior Belief]
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    A --&gt; C
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    B --&gt; C
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>    C --&gt; D
-</span></code></pre></div>
-=======
 <pre class="mermaid"><code>flowchart LR
     A[Prior Belief]
     B[New Evidence]
@@ -2087,7 +2047,6 @@ P(A \mid B)=\frac{P(B \mid A)P(A)}{P(B)}
     A --&gt; C
     B --&gt; C
     C --&gt; D</code></pre>
->>>>>>> main
 <p>The posterior from one analysis can become the prior for the next, allowing knowledge to accumulate over time.</p>
 <hr />
 <h2 id="example-1-predicting-the-presence-of-a-species-in-an-area">Example 1: Predicting the Presence of a Species in an Area</h2>
@@ -2097,11 +2056,7 @@ P(A \mid B)=\frac{P(B \mid A)P(A)}{P(B)}
 <blockquote>
 <p>Probability the species is present = 70%</p>
 </blockquote>
-<<<<<<< HEAD
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Prior = 0.70
-=======
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Prior = 0.70
->>>>>>> main
 </span></code></pre></div>
 <h3 id="new-evidence">New Evidence</h3>
 <p>An acoustic detector records several calls matching the target species.</p>
@@ -2111,18 +2066,6 @@ P(A \mid B)=\frac{P(B \mid A)P(A)}{P(B)}
 </blockquote>
 <h3 id="bayesian-update">Bayesian Update</h3>
 <p>The new evidence increases our confidence that the species is present.</p>
-<<<<<<< HEAD
-<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>flowchart TD
-</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a>    A[Habitat Information]
-</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a>    B[Prior Probability: 70%]
-</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a>    C[Acoustic Survey Results]
-</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a>    D[Updated Probability of Presence]
-</span><span id="__span-2-6"><a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a>
-</span><span id="__span-2-7"><a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a>    A --&gt; B
-</span><span id="__span-2-8"><a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a>    B --&gt; D
-</span><span id="__span-2-9"><a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a>    C --&gt; D
-</span></code></pre></div>
-=======
 <pre class="mermaid"><code>flowchart TD
     A[Habitat Information]
     B[Prior Probability: 70%]
@@ -2132,7 +2075,6 @@ P(A \mid B)=\frac{P(B \mid A)P(A)}{P(B)}
     A --&gt; B
     B --&gt; D
     C --&gt; D</code></pre>
->>>>>>> main
 <p>Unlike a simple "present" or "absent" classification, Bayesian analysis provides a probability that reflects both historical knowledge and newly collected evidence.</p>
 <hr />
 <h2 id="example-2-predicting-voter-choice">Example 2: Predicting Voter Choice</h2>
@@ -2208,20 +2150,6 @@ P(A \mid B)=\frac{P(B \mid A)P(A)}{P(B)}
 </tbody>
 </table>
 <h3 id="bayesian-voting-example">Bayesian Voting Example</h3>
-<<<<<<< HEAD
-<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>flowchart LR
-</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a>    A[Polling Data]
-</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>    B[Prior Party Probabilities]
-</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a>
-</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a>    C[Voter Prioritises Climate Change]
-</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a>
-</span><span id="__span-3-7"><a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a>    D[Updated Party Probabilities]
-</span><span id="__span-3-8"><a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a>
-</span><span id="__span-3-9"><a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a>    A --&gt; B
-</span><span id="__span-3-10"><a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a>    B --&gt; D
-</span><span id="__span-3-11"><a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a>    C --&gt; D
-</span></code></pre></div>
-=======
 <pre class="mermaid"><code>flowchart LR
     A[Polling Data]
     B[Prior Party Probabilities]
@@ -2233,7 +2161,6 @@ P(A \mid B)=\frac{P(B \mid A)P(A)}{P(B)}
     A --&gt; B
     B --&gt; D
     C --&gt; D</code></pre>
->>>>>>> main
 <p>Bayesian inference combines existing knowledge with new evidence to produce a revised estimate of what is most likely.</p>
 <hr />
 <h2 id="limitations-of-bayesian-statistics">Limitations of Bayesian Statistics</h2>
@@ -2241,22 +2168,6 @@ P(A \mid B)=\frac{P(B \mid A)P(A)}{P(B)}
 <h3 id="1-priors-can-be-subjective">1. Priors Can Be Subjective</h3>
 <p>Bayesian models require prior assumptions.</p>
 <p>Different analysts may choose different priors, which can lead to different conclusions, particularly when little data is available.</p>
-<<<<<<< HEAD
-<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>flowchart LR
-</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>    A[Analyst 1 Prior]
-</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>    B[Same Data]
-</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a>    C[Posterior A]
-</span><span id="__span-4-5"><a id="__codelineno-4-5" name="__codelineno-4-5" href="#__codelineno-4-5"></a>
-</span><span id="__span-4-6"><a id="__codelineno-4-6" name="__codelineno-4-6" href="#__codelineno-4-6"></a>    D[Analyst 2 Prior]
-</span><span id="__span-4-7"><a id="__codelineno-4-7" name="__codelineno-4-7" href="#__codelineno-4-7"></a>    E[Posterior B]
-</span><span id="__span-4-8"><a id="__codelineno-4-8" name="__codelineno-4-8" href="#__codelineno-4-8"></a>
-</span><span id="__span-4-9"><a id="__codelineno-4-9" name="__codelineno-4-9" href="#__codelineno-4-9"></a>    A --&gt; B
-</span><span id="__span-4-10"><a id="__codelineno-4-10" name="__codelineno-4-10" href="#__codelineno-4-10"></a>    B --&gt; C
-</span><span id="__span-4-11"><a id="__codelineno-4-11" name="__codelineno-4-11" href="#__codelineno-4-11"></a>
-</span><span id="__span-4-12"><a id="__codelineno-4-12" name="__codelineno-4-12" href="#__codelineno-4-12"></a>    D --&gt; B
-</span><span id="__span-4-13"><a id="__codelineno-4-13" name="__codelineno-4-13" href="#__codelineno-4-13"></a>    B --&gt; E
-</span></code></pre></div>
-=======
 <pre class="mermaid"><code>flowchart LR
     A[Analyst 1 Prior]
     B[Same Data]
@@ -2270,7 +2181,6 @@ P(A \mid B)=\frac{P(B \mid A)P(A)}{P(B)}
 
     D --&gt; B
     B --&gt; E</code></pre>
->>>>>>> main
 <p>When datasets are small, results may be strongly influenced by these prior assumptions.</p>
 <hr />
 <h3 id="2-computationally-intensive">2. Computationally Intensive</h3>
@@ -2313,30 +2223,6 @@ P(A \mid B)=\frac{P(B \mid A)P(A)}{P(B)}
 <li>Complex hierarchical and multi-level systems can be modelled effectively.</li>
 </ul>
 <h3 id="bayesian-learning-cycle">Bayesian Learning Cycle</h3>
-<<<<<<< HEAD
-<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>flowchart LR
-</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>    A[Prior Knowledge]
-</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>    B[Collect Data]
-</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a>    C[Calculate Posterior]
-</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>    D[Updated Understanding]
-</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a>
-</span><span id="__span-5-7"><a id="__codelineno-5-7" name="__codelineno-5-7" href="#__codelineno-5-7"></a>    A --&gt; B
-</span><span id="__span-5-8"><a id="__codelineno-5-8" name="__codelineno-5-8" href="#__codelineno-5-8"></a>    B --&gt; C
-</span><span id="__span-5-9"><a id="__codelineno-5-9" name="__codelineno-5-9" href="#__codelineno-5-9"></a>    C --&gt; D
-</span><span id="__span-5-10"><a id="__codelineno-5-10" name="__codelineno-5-10" href="#__codelineno-5-10"></a>    D --&gt; A
-</span></code></pre></div>
-<hr />
-<h2 id="key-takeaway">Key Takeaway</h2>
-<p>Bayesian statistics is fundamentally a framework for learning.</p>
-<p>Rather than asking:</p>
-<blockquote>
-<p>"Would this result be unusual if my hypothesis were true?"</p>
-</blockquote>
-<p>Bayesian statistics asks:</p>
-<blockquote>
-<p>"Given my existing knowledge and the evidence I've observed, what should I believe now?"</p>
-</blockquote>
-=======
 <pre class="mermaid"><code>flowchart LR
     A[Prior Knowledge]
     B[Collect Data]
@@ -2348,7 +2234,6 @@ P(A \mid B)=\frac{P(B \mid A)P(A)}{P(B)}
     C --&gt; D
     D --&gt; A</code></pre>
 <hr />
->>>>>>> main
 
 
 
