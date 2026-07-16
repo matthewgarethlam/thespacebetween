@@ -5,10 +5,10 @@
 Git is a piece of software on your machine used to track changes in files. Git let's us: 
 
 - See what's changed, when and by whom
-- Revert mistakes
 - Compare different versions of your work
 - Collaborate with other people without overwriting each other's changes
 - Maintain a complete audit trail of a project
+- Revert mistakes
 
 
 ### Key Concepts
@@ -29,13 +29,11 @@ Git is a piece of software on your machine used to track changes in files. Git l
 
 Git can provide significant benefits when working with:
 
-- Python scripts
-- R projects
-- SQL
+- Scripts (Python,R,SQL)
+- Notebooks (Rmd, Jupyter Notebooks)
 - FME workspaces
 - Configuration files
 - Documentation
-- Data science projects
 
 ### 1. Change History
 
@@ -63,7 +61,8 @@ Git solves the classic problem of multiple people editing the same files. Git he
 
 ## Git and GitHub
 
-> "What's the difference between Git and GitHub?"
+???+ question 
+    "What's the difference between Git and GitHub?"
 
 ### Git
 
