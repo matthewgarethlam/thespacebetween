@@ -1,4 +1,4 @@
-# Spatial is special: How we use geospatial data science to make an impact
+# Spatial is special
 *Invited talk at the British Cartographic Society Annual Conference 2024* 
 
 ### Abstract
