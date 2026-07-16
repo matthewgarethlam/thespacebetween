@@ -1,5 +1,9 @@
 # Spatial is special
-*Invited talk at the British Cartographic Society Annual Conference 2024* 
+!!! info inline end "About"
+
+    **September 2024, London**
+
+    *Invited talk at the British Cartographic Society Annual Conference 2024*
 
 ### Abstract
 Geospatial data plays an instrumental role in supporting projects in the engineering sector, enabling us to understand the world around us so that we can make better informed decisions, improve efficiencies, and drive digital innovation. 
