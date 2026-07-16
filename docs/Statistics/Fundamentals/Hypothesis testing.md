@@ -1,3 +1,3 @@
-# Content coming soon!
+# Hypothesis testing
 
 New content coming very soon...
