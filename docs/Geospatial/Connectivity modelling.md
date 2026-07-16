@@ -1,3 +1,2 @@
-# Difference in differences
-
+#  Connectivity modelling
 New content coming very soon...

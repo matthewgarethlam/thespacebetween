@@ -1,3 +1,3 @@
-# Content coming soon!
+# Synthetic control analysis
 
 New content coming very soon...

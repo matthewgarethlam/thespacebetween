@@ -1,3 +1,3 @@
-# Content coming soon!
+# A crash course in neural networks
 
 New content coming very soon...
