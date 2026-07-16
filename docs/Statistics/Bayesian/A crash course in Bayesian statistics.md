@@ -306,15 +306,3 @@ flowchart LR
 ```
 
 ---
-
-## Key Takeaway
-
-Bayesian statistics is fundamentally a framework for learning.
-
-Rather than asking:
-
-> "Would this result be unusual if my hypothesis were true?"
-
-Bayesian statistics asks:
-
-> "Given my existing knowledge and the evidence I've observed, what should I believe now?"
