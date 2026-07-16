@@ -13,5 +13,5 @@ We intend to demonstrate how R can be used for creative visualisation of geospat
 Through these examples, we hope to outline our team’s maturity journey towards building multilingual spatial data science capabilities alongside traditional GIS platforms.
 
 ### Recording
-[Link to recording](https://www.youtube.com/watch?v=CYhzhyzRMBQ)
+The talk is on [YouTube!](https://www.youtube.com/watch?v=CYhzhyzRMBQ)
 
