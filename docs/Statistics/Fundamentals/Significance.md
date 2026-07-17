@@ -1,3 +1,0 @@
-# Content coming soon!
-
-New content coming very soon...
