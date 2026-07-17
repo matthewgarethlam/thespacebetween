@@ -1,5 +1,5 @@
 
-## Useful Git Commands
+# MGL's Git Command Bible
 
 ### Setup
 
