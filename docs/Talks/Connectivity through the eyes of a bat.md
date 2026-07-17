@@ -1,0 +1,31 @@
+# Preserving Permeability Through Machine Learning – Connectivity and Suitability Through the Eyes of a Bat
+!!! info inline end "About"
+
+    **September 2026, Bristol**
+
+    *Upcoming talk at Infrastructure Ecology Network Europe (IENE) Annual Conference 2026*
+
+### Abstract
+Accelerating climate change and continued landscape fragmentation are placing unprecedented pressure on the UK’s ecological networks. With the UK Government’s emerging rhetoric and the introduction of the Planning and Infrastructure Act 2025, an emphasis that environmental surveys and mitigation design should be proportionate and appropriate. Therefore, survey and mitigation strategies for major infrastructure schemes need to evolve and be more strategic and innovated in their approach to understand the impacts of a scheme on the environment. Translating these requirements into practice calls for decision‑making frameworks that are evidence‑driven, spatially coherent and capable of operating at the scale of nationally significant infrastructure.
+
+Mott MacDonald has delivered a pioneering, cross‑disciplinary approach to bat habitat suitability modelling (HSM) for a major UK railway scheme, marking a significant advancement in ecological practice. The project integrated ecology, geospatial analysis and data science to establish a rigorous, efficient and repeatable framework for biodiversity assessment on large‑scale infrastructure projects, ensuring a robust and defensible baseline for bats. 
+
+A central challenge in ecological assessment for major infrastructure is the persistent barrier of land access, which often constrains survey design and undermines the representativeness of ecological baselines. A central innovation was the adoption of Local Pivotal Method (LPM) sampling to design a spatially balanced network of static bat detectors. Whilst widely used in advanced statistical applications, LPM is rarely applied in UK ecological survey design. Its integration ensured even spatial coverage across the landscape, reduced spatial autocorrelation and produced a high‑quality, representative dataset. By enabling targeted static detector placement and avoiding unnecessary survey effort, LPM delivered immediate benefits, including greater survey efficiency and stronger evidential confidence, and set a new precedent for scientifically robust survey design across the industry.
+
+Building on this, we applied Integrated Nested Laplace Approximation (INLA) to develop predictive habitat suitability models that explicitly accounted for spatial dependency and uncertainty. These elements are often overlooked in traditional ecological assessments. Through a domain‑driven variable selection process, our models were both statistically sound and ecologically meaningful. The resulting suite of habitat suitability maps offered a clear, defensible understanding of species distributions, directly informing design development, environmental impact assessment and targeted survey strategies.
+
+Crucially, the framework is designed to work with citizen‑science and Environmental Records Centre datasets, which are often spatially biased. Our spatial thinning and weighting algorithms correct for uneven sampling effort, enabling robust habitat suitability modelling even where field survey budgets are limited. This democratises access to advanced ecological modelling, allowing charities, local authorities and community groups to adopt techniques traditionally restricted to research institutions or major engineering consultancies.
+
+To complement these outputs, we incorporated Circuitscape (a free, open-source ecological modelling tool that uses electrical circuit theory to predict how wildlife moves through the landscape) to model landscape permeability and functional connectivity. This cutting‑edge technique enabled us to identify the most probable movement routes, highlight critical pinch points and understand how bat species might navigate a landscape undergoing substantial change by looking at conductors (habitats that allow movement) and resistors (barriers to movement). Integrating connectivity modelling at this stage and scale provided genuinely actionable insight, guiding the prioritisation of mitigation through design where it could deliver the highest ecological value and long‑term biodiversity gains.
+
+Taken together, this workflow (LPM sampling, INLA modelling, Circuitscape connectivity) represented a step‑change in ecological assessment for linear infrastructure projects. It demonstrates how open‑source analytical tools, when paired with ecological expertise, can transform decision‑making, reduce uncertainty and support proportionate, evidence‑led survey strategies and scheme design. 
+
+The integrated workflow resulted in targeted and proportionate surveys, reducing the number of surveys and effort required, whilst improving the reliability of the evidence base. In turn, this enabled estimated cost savings of millions of pounds across the lifetime of the scheme, demonstrating that innovation in ecological modelling can deliver both environmental and economic benefits.
+
+The refined evidence base also supported more defensible impact assessments, more strategic mitigation design, and better alignment with ecological resilience objectives post‑development. The combination of LPM, INLA and Circuitscape produced outputs that informed real‑time design decisions, validated during ongoing project monitoring and peer review.
+
+Together, these innovations demonstrate how advanced modelling can actively strengthen resilience through nature by enabling infrastructure design that respects ecological limits, maintains landscape permeability and avoids maladaptive outcomes. By revealing functional connectivity, identifying thresholds of ecological vulnerability and guiding mitigation toward areas of highest value, the workflow supports infrastructure that can adapt and reorganise alongside changing environmental conditions. It shows how data‑driven, ecologically grounded approaches can help major projects work with natural processes rather than against them, embedding resilience, reducing cumulative impacts and ensuring that long‑term infrastructure viability is underpinned by the integrity of the ecosystems it intersects.
+
+
+### Slides
+

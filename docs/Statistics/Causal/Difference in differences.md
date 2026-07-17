@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Difference-in-Differences: Estimating Causal Effects Without a Randomised Trial
+=======
+# Difference in differences
+>>>>>>> main
 
 I actually wrote my dissertation using DiD so this is a super exciting topic for me! 
 

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Linear and Logistic Regression Recap
 Quick notes on Linear and Logistic Regressions: 
 
@@ -400,4 +401,7 @@ ggplot(Pima.tr,
   )
 ```
 ![alt text](assets\interaction_effect_vis_age.png)
+=======
+# Regression
+>>>>>>> main
 

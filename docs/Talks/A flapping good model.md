@@ -1,5 +1,9 @@
 # A Flapping Good Model: Collaborative approaches to machine learning for biodiversity
-*A talk given jointly with my colleague Sam Smith at GeoBusiness 2026 in London, UK.* 
+!!! info inline end "About"
+
+    **June 2026, London**
+
+    *Presented jointly with my colleague Sam Smith at GeoBusiness 2026.* 
 
 ### Abstract
 Mott MacDonald showcase an innovative cross-disciplinary framework revolutionising habitat suitability modelling. Using advanced machine learning combined with ecological expertise, they’ve delivered a more robust, cost-effective survey and mitigation strategy for a major UK railway project.
