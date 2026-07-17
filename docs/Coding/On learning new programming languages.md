@@ -12,7 +12,7 @@ These were a few things that helped:
 
 So in conclusion, I guess what I'm telling myself is that you just gotta sit with it and learn with examples. 
 
-I like Julia. She's kinda cool. But spending too much time with Julia will probably drive you nuts. But that's also how I learned R (see below)
+I like Julia. She's kinda cool. But spending too much time with Julia will probably drive you nuts. But that's also how I learned R (see below). Swings and roundabouts I suppose xoxo
 ![alt text](assets/rstudio_bereal.jpg)
 
 
