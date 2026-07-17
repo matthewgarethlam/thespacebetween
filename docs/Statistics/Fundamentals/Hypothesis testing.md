@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # Hypothesis Testing Recap
-=======
-# Hypothesis testing
->>>>>>> main
 
 Hypothesis testing provides a formal framework for determining whether the patterns we observe in data are likely to represent a real effect or simply random variation.
 
