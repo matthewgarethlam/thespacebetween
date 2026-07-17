@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # Synthetic Control Analysis: Building a Counterfactual
-=======
-# Synthetic control analysis
->>>>>>> main
 
 This is one of the COOLEST causal analysis methods in my opnion. Very underrated and only just beginning to become popular in social science research. 
 
