@@ -1,3 +1,0 @@
-# Significance
-
-New content coming very soon...

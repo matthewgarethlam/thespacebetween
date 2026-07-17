@@ -31,7 +31,7 @@ image_360 = cv2.cvtColor(image_360, cv2.COLOR_BGR2RGB)
 #plot
 plt.imshow(image_360)
 ```
-![alt text](assets/01_matplotlib_read.png)
+
 
 
 ### Shape of the image
