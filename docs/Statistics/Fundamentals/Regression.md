@@ -12,7 +12,7 @@ data(Pima.tr)
 
 head(Pima.tr)
 ```
-
+The dataset looks like this
 ```
   npreg glu bp skin  bmi   ped age type
 1     5  86 68   28 30.2 0.364  24   No
