@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 # Difference-in-Differences: Estimating Causal Effects Without a Randomised Trial
-=======
-# Difference in differences
->>>>>>> main
 
-I actually wrote my dissertation using DiD so this is a super exciting topic for me! 
+I actually wrote my dissertation using DiD (and synthetic control) so this is a super exciting topic for me! 
 
 One of the biggest challenges in statistics is determining whether an intervention actually caused a change in outcomes.
 
