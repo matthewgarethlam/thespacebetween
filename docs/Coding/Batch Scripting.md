@@ -1,7 +1,8 @@
 # Useful batch scripting hacks
 
 #### What is a batch script? 
-A way to orchestrate a series of processes into a .bat file, where you can just 'double click' and execute the process, without opening VSCode. Batch scripts are: 
+A way to orchestrate a series of processes into a .bat file, where you can just 'double click' and execute the process, without opening VSCode. Batch scripts are:
+
 - Available on every Windows machine
 - Easy to distribute
 - Fast to write
@@ -46,7 +47,7 @@ cd C:\Projects
 
 echo Running analysis...
 ```
-# Or you can use `::` to commetn
+Or you can use `::` to comment
 ``` batch
 :: This is a comment. 
 ```
@@ -238,6 +239,8 @@ ren "%TMP_LOG%" "%FINAL_LOG%"
 
 
 # Call `exe`s
+
+Probably wouldn't recommend actually doing that. But instead we can call FME.exe 😉
 
 ```batch
 start fme.exe
