@@ -88,12 +88,6 @@ If we error, the script won't close before you get a chance to see the error.
 ```batch
 pause
 ```
-
-Output:
-
-```text
-Press any key to continue . . .
-```
 ---
 
 ## Check for Errors Using `%ERRORLEVEL%`
@@ -171,12 +165,6 @@ for %%f in (*.csv) do (
 set DATESTAMP=%DATE:~-4%%DATE:~3,2%%DATE:~0,2%
 
 echo Report > Report_%DATESTAMP%.txt
-```
-
-Produces:
-
-```text
-Report_20260718.txt
 ```
 ---
 
