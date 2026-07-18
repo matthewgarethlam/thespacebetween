@@ -86,10 +86,13 @@ copy "C:\My Files\data.csv" "C:\Backup"
 ### Pause Before the Window Closes - SUPER HELPFUL!
 
 If we error, the script won't close before you get a chance to see the error. 
+We can add the command `pause` at the end of the script. 
 
 ```batch
+echo Do something here
 pause
 ```
+--- 
 ---
 
 ### Check for Errors Using `%ERRORLEVEL%`
@@ -171,6 +174,8 @@ echo Report > Report_%DATESTAMP%.txt
 ```
 ---
 
+---
+
 ### Redirect Console Output to a Text File
 
 One of the most useful batch scripting techniques is logging script output for debugging. 
@@ -219,14 +224,11 @@ echo Processing file 2... >> "%TMP_LOG%"
 timeout /t 5 >nul
 
 echo Script completed successfully. >> "%TMP_LOG%"
+
+ren "%TMP_LOG%" "%FINAL_LOG%"
 ```
 So when we run it, the contents of `run.tmp` will get populated with the script outputs continuously. 
 
-Lastly, we can add a line to rename the temp file to `.txt` when finished.
-
-```batch
-ren "%TMP_LOG%" "%FINAL_LOG%"
-```
 ---
 
 
