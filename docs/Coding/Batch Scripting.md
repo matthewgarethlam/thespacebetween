@@ -1,6 +1,6 @@
-# Useful batch scripting hacks
+# Useful Batch Scripting Hacks
 
-#### What is a batch script? 
+## What Is a Batch Script?
 A way to orchestrate a series of processes into a .bat file, where you can just 'double click' and execute the process, without opening VSCode. Batch scripts are:
 
 - Available on every Windows machine
@@ -37,7 +37,7 @@ Complete.
 
 ---
 
-## Use `REM` to comment
+## Use `REM` to Comment
 
 ```batch
 @echo off
@@ -47,13 +47,15 @@ cd C:\Projects
 
 echo Running analysis...
 ```
-Or you can use `::` to comment
-``` batch
+Or you can use `::` to comment:
+
+```batch
 :: This is a comment. 
 ```
+
 ---
 
-## Using Variables 
+## Using Variables
 
 Instead of repeating file paths:
 
@@ -154,7 +156,8 @@ Process every file in a directory:
 
 ```batch
 for %%f in (*.csv) do (
-    echo Processing %%f*)
+    echo Processing %%f
+)
 ```
 
 ---
@@ -193,9 +196,9 @@ The `>>` operator appends additional output.
 
 ---
 
-### Logging into a temporary file, and then converting to txt at the end
+### Log to a Temporary File, Then Convert to `.txt`
 
-This is if we want to continuously log the output of a script. We use a tmp file, and then convert it to a txt at the end 
+This is useful when you want to continuously log script output, then convert it to a `.txt` file at the end.
 
 ```batch
 @echo off
@@ -219,7 +222,8 @@ echo Script completed successfully. >> "%TMP_LOG%"
 ```
 So when we run it, the contents of `run.tmp` will get populated with the script outputs continuously. 
 
-Lastly, we can add a line to rename the tmp into a txt when we've finished 
+Lastly, we can add a line to rename the temp file to `.txt` when finished.
+
 ```batch
 ren "%TMP_LOG%" "%FINAL_LOG%"
 ```
