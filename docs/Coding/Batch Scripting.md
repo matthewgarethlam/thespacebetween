@@ -88,10 +88,6 @@ copy "C:\My Files\data.csv" "C:\Backup"
 If we error, the script won't close before you get a chance to see the error. 
 We can add the command `pause` at the end of the script. 
 
-```batch
-echo Do something here
-pause
-```
 ---
 
 ### Check for Errors Using `%ERRORLEVEL%`
@@ -162,14 +158,6 @@ for %%f in (*.csv) do (
 )
 ```
 
----
-
-### Timestamp Your Files
-
-```batch
-set DATESTAMP=%DATE:~-4%%DATE:~3,2%%DATE:~0,2%
-echo Report > Report_%DATESTAMP%.txt
-```
 ---
 
 ### Redirect Console Output to a Text File
