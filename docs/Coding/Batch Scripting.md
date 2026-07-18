@@ -9,7 +9,7 @@ A way to orchestrate a series of processes into a .bat file, where you can just 
 - Ideal for launching applications and orchestrating a sequence of scripts. 
 
 
-# Always Start with `@echo off`
+## Always Start with `@echo off`
 
 ```batch
 @echo off
@@ -37,7 +37,7 @@ Complete.
 
 ---
 
-# Use `REM` to comment
+## Use `REM` to comment
 
 ```batch
 @echo off
@@ -53,7 +53,7 @@ Or you can use `::` to comment
 ```
 ---
 
-# Using Variables 
+## Using Variables 
 
 Instead of repeating file paths:
 
@@ -72,7 +72,7 @@ copy "%PROJECT_DIR%\input.csv" "%BACKUP_DIR%"
 
 ---
 
-# Always Quote File Paths
+## Always Quote File Paths
 
 ```batch
 copy "C:\My Files\data.csv" "C:\Backup"
@@ -81,7 +81,7 @@ copy "C:\My Files\data.csv" "C:\Backup"
 
 ---
 
-# Pause Before the Window Closes - SUPER HELPFUL!
+## Pause Before the Window Closes - SUPER HELPFUL!
 
 If we error, the script won't close before you get a chance to see the error. 
 
@@ -96,7 +96,7 @@ Press any key to continue . . .
 ```
 ---
 
-# Check for Errors Using `%ERRORLEVEL%`
+## Check for Errors Using `%ERRORLEVEL%`
 
 Many commands return an exit code.
 
@@ -122,7 +122,7 @@ if errorlevel 1 (
 
 ---
 
-# Create Menus
+## Create Menus
 
 ```batch
 @echo off
@@ -154,7 +154,7 @@ pause
 
 ---
 
-# Loop Through Files
+## Loop Through Files
 
 Process every file in a directory:
 
@@ -165,7 +165,7 @@ for %%f in (*.csv) do (
 
 ---
 
-# Timestamp Your Files
+## Timestamp Your Files
 
 ```batch
 set DATESTAMP=%DATE:~-4%%DATE:~3,2%%DATE:~0,2%
@@ -180,11 +180,11 @@ Report_20260718.txt
 ```
 ---
 
-# Redirect Console Output to a Text File
+## Redirect Console Output to a Text File
 
 One of the most useful batch scripting techniques is logging script output for debugging. 
 
-## Redirect Standard Output
+### Redirect Standard Output
 
 ```batch
 my_script.bat > log.txt
@@ -205,7 +205,7 @@ The `>>` operator appends additional output.
 
 ---
 
-## Logging into a temporary file, and then converting to txt at the end
+### Logging into a temporary file, and then converting to txt at the end
 
 This is if we want to continuously log the output of a script. We use a tmp file, and then convert it to a txt at the end 
 
@@ -238,7 +238,7 @@ ren "%TMP_LOG%" "%FINAL_LOG%"
 ---
 
 
-# Call `exe`s
+## Call `exe`s
 
 Probably wouldn't recommend actually doing that. But instead we can call FME.exe 😉
 
@@ -266,8 +266,8 @@ set OUTPUT=C:\Results
 ---
 
 
-# For loops and FME with Batch Scripting
-Let's say I want to call a workspace repeatedly on multiple input files. Suppose we have a CAD to GIS Conversion Workbench we want to iterateively run. 
+## For loops and FME with Batch Scripting
+Let's say I want to call a workspace repeatedly on multiple input files. Suppose we have a Workbench we want to iterateively run. 
 
 Yes we can build a parent workspce, but that requires opening FME and I'm lazy. So we can just make a `.bat` file that's double clickable. 
 
@@ -281,7 +281,7 @@ for %%F in (C:\Data\*.dwg) do (
     
     REM Same as above, where I'm itratively calling the FME Workbench on here. 
     "C:\Program Files\FME\fme.exe" ^
-        "C:\Workspaces\CAD2GIS.fmw" ^
+        "C:\Workspaces\ConvertData.fmw" ^
         --INPUT_FILE "%%F" ^
         --OUTPUT_FOLDER "C:\Output"
 
