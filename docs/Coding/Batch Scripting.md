@@ -74,7 +74,7 @@ copy "%PROJECT_DIR%\input.csv" "%BACKUP_DIR%"
 
 ---
 
-###Always Quote File Paths
+### Always Quote File Paths
 
 ```batch
 copy "C:\My Files\data.csv" "C:\Backup"
@@ -92,7 +92,6 @@ We can add the command `pause` at the end of the script.
 echo Do something here
 pause
 ```
---- 
 ---
 
 ### Check for Errors Using `%ERRORLEVEL%`
@@ -169,11 +168,8 @@ for %%f in (*.csv) do (
 
 ```batch
 set DATESTAMP=%DATE:~-4%%DATE:~3,2%%DATE:~0,2%
-
 echo Report > Report_%DATESTAMP%.txt
 ```
----
-
 ---
 
 ### Redirect Console Output to a Text File
