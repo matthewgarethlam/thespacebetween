@@ -343,6 +343,7 @@ ggplot(
 
 ```
 ![alt text](assets/scotland_synthetic_timeseries.png)
+
 From this plot, we can see Scotland and Synthetic Scotland tracking closely between 2000 and 2004. There is a divergence after 2005 when the smoking ban is introduced.
 
 #### Plotting the estimated treatment effect
@@ -376,6 +377,7 @@ ggplot(
   theme_minimal()
 ```
 ![alt text](assets/scotland_synthetic_treatment_effect_timeseries.png)
+
 Here we see that effect is close to zero before 2005 (good pre-treatment fit).There is a negative effect after 2005, indicating that respiratory admissions are lower than would have been expected without the smoking ban.
 
 
