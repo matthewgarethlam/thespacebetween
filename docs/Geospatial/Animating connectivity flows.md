@@ -4,7 +4,7 @@ Recently, I gave a [talk](https://matthewgarethlam.github.io/thespacebetween/Tal
 
 The gif below shows the connectivity corridors for a species of bat. The raster that comes on as we progress is the circuitscape cumulative current output. 
 
-<img src="https://github.com/matthewgarethlam/thespacebetween/tree/main/docs/Geospatial/assets/Barbastella Movement_animation.gif"/>
+![alt text](assets/Barbastella%20Movement_animation.gif)
 
 Here's how! 
 
@@ -355,4 +355,4 @@ def animate_flows(raster, trajectories, title, output_dir=r'Outputs', fps=30, in
 animate_flows(raster_transformed, trajectories, 'Barbastella Movement', fps=30, interval=20, tail_length=1000, linewidth=0.8, fig_width=8, fig_height=6, fadein_seconds=5)
 ```
 
-<img src="https://github.com/matthewgarethlam/thespacebetween/tree/main/docs/Geospatial/assets/Barbastella Movement_animation.gif"/>
+![alt text](assets/Barbastella%20Movement_animation.gif)
